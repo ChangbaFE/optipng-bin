@@ -1,4 +1,4 @@
-# optipng-bin [![Build Status](https://travis-ci.org/imagemin/optipng-bin.svg?branch=master)](https://travis-ci.org/imagemin/optipng-bin)
+# optipng-changba [![Build Status](https://travis-ci.org/ChangbaFE/optipng-bin.svg?branch=master)](https://travis-ci.org/ChangbaFE/optipng-bin)
 
 > [OptiPNG](http://optipng.sourceforge.net) is a PNG optimizer that recompresses image files to a smaller size, without losing any information
 
@@ -8,7 +8,7 @@ You probably want [`imagemin-optipng`](https://github.com/imagemin/imagemin-opti
 ## Install
 
 ```
-$ npm install --save optipng-bin
+$ npm install --save optipng-changba
 ```
 
 
@@ -17,7 +17,7 @@ $ npm install --save optipng-bin
 ```js
 const {promisify} = require('util');
 const {execFile} = require('child_process');
-const optipng = require('optipng-bin');
+const optipng = require('optipng-changba');
 
 const execFileP = promsify(execFile);
 
@@ -31,7 +31,7 @@ const execFileP = promsify(execFile);
 ## CLI
 
 ```
-$ npm install --global optipng-bin
+$ npm install --global optipng-changba
 ```
 
 ```
